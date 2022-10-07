@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.logo h1 {
+  padding-left: 30px;
+}
+.navbar {
+  width: 100vw;
+  height: 80px;
+  background-color: #fee;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.menu {
+  margin-left: 200px;
+}
+
+.menu ul li {
+  float: left;
+  list-style: none;
+  color: rgb(250, 13, 13);
+}
+
+.menu ul li ul {
+  display: none;
+  position: absolute;
+  top: 50px;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 12px;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.menu ul li a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.signup {
+  margin-left: 220px;
+  background-color: red;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.gambar {
+  width: 100vw;
+  height: 500px;
+  background: url("image/gambar1.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  background-color: #fee;
+  width: 100vw;
+  height: 70px;
+}
+.container1 h1 {
+  padding-left: 300px;
+  padding-right: 20px;
+  color: purple;
+}
+
+.search-box {
+  padding-left: 10px;
+}
+
+.button1 {
+  padding: 10px;
+  margin-left: 20px;
+  background-color: pink;
+}
+
+.logo img {
+  width: 100px;
+  height: 60px;
+  padding-left: 50px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.container2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  flex-direction: column;
+}
+.container2 h2 {
+  padding-bottom: 5px;
+}
+.container2 p {
+  padding-bottom: 20px;
+}
+
+.foto {
+  float: left;
+  margin: 20px;
+  transition: all 1s ease;
+}
+
+.galeri {
+  width: 720px;
+  gap: 20px;
+}
+
+.foto img {
+  width: 200px;
+  height: 170px;
+  transition: all 1s ease;
+}
+
+.places {
+  display: flex;
+}
+
+.placeNo {
+  margin-left: 8px;
+  width: 60px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.foto:hover {
+  transform: translateY(-10px);
+}
+
+.container3 {
+  background-color: skyblue;
+  background-position: 100%;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container3 h1 {
+  padding-right: 200px;
+  font-size: x-large;
+}
+.container3 p {
+  font-size: small;
+}
+.button2 {
+  background-color: red;
+}
+.container4 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  flex-direction: column;
+}
+.container4 h1 {
+  padding-bottom: 5px;
+}
+.container2 p {
+  padding-bottom: 20px;
+}
+
+.button3 {
+  height: 20px;
+}
